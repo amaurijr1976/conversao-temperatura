@@ -16,7 +16,7 @@ kind: Pod
 metadata: 
   name: meupod-verde
   labels:
-    cor: azul
+    cor: verde
 spec:
   containers:
   - name: site
