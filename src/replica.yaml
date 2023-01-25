@@ -8,7 +8,7 @@ spec:
       app: web
   template:
     metadata: 
-      name: meupod-azul
+      name: meupod-verde
       labels:
         app: web
     spec:

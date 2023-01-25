@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: site
-    image: fabricioveronez/web-page:blue
+    image: nginx
     ports:
     - containerPort: 80
 ---
@@ -20,6 +20,6 @@ metadata:
 spec:
   containers:
   - name: site
-    image: fabricioveronez/web-page:blue
+    image: nginx
     ports:
     - containerPort: 80
