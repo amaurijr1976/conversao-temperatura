@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata: 
+  name: meureplica
+spec:
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata: 
+      name: meupod-verde
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: site
+        image: fabricioveronez/web-page:blue
+        ports:
+        - containerPort: 80
