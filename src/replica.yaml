@@ -8,12 +8,12 @@ spec:
       app: web
   template:
     metadata: 
-      name: meupod-verde
+      name: meupod-azul
       labels:
         app: web
     spec:
       containers:
       - name: site
-        image: nginx
+        image: fabricioveronez/web-page:blue
         ports:
         - containerPort: 80
